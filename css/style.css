@@ -734,6 +734,30 @@ a { color: var(--emerald); }
 
 .form-note { font-size: 0.82rem; color: var(--muted); font-style: italic; margin-top: 0.5rem; }
 
+.form-success {
+  background: #d1fae5;
+  color: #065f46;
+  border: 1px solid #6ee7b7;
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.form-error {
+  background: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fca5a5;
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.field-error { font-size: 0.82rem; color: #dc2626; margin-top: -0.5rem; }
+
+.contact-form input[aria-invalid="true"],
+.contact-form textarea[aria-invalid="true"] { border-color: #dc2626; }
+
 /* ===========================
    Footer
    =========================== */
