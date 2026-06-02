@@ -120,16 +120,7 @@ if (backToTopBtn) {
 }
 
 // ===========================
-// Contact Form Handling (Placeholder)
 // ===========================
-const contactForm = document.getElementById('contact-form');
-
-if (contactForm) {
-    contactForm.addEventListener('submit', function (e) {
-        e.preventDefault();
-        alert('Формата все още не е свързана с email услуга. Ще интегрираме Formspree или EmailJS.');
-    });
-}
 
 // ===========================
 // Scroll Reveal Animations
